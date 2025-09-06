@@ -1,0 +1,56 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-sarcostudio-dev-caf37-authRole",
+      "UnauthRoleArn": "arn:aws:iam::820242937525:role/amplify-sarcostudio-dev-caf37-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::820242937525:role/amplify-sarcostudio-dev-caf37-authRole",
+      "Region": "eu-north-1",
+      "DeploymentBucketName": "amplify-sarcostudio-dev-caf37-deployment",
+      "UnauthRoleName": "amplify-sarcostudio-dev-caf37-unauthRole",
+      "StackName": "amplify-sarcostudio-dev-caf37",
+      "StackId": "arn:aws:cloudformation:eu-north-1:820242937525:stack/amplify-sarcostudio-dev-caf37/53b5c240-e8b5-11ef-83a2-06d902c306fb",
+      "AmplifyAppId": "d10mdffl812sum"
+    }
+  },
+  "auth": {
+    "sarcostudioee374c2e": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-sarcostudio-dev-caf37-deployment/amplify-cfn-templates/auth/sarcostudioee374c2e-cloudformation-template.json",
+        "logicalId": "authsarcostudioee374c2e"
+      },
+      "lastPushTimeStamp": "2025-02-11T20:22:10.759Z",
+      "output": {
+        "UserPoolId": "eu-north-1_fYuzdE7rN",
+        "AppClientIDWeb": "53igovuvg8l22cv0bo2gannq6n",
+        "AppClientID": "6k8dpppovrsgbiseqoc215c1r9",
+        "IdentityPoolId": "eu-north-1:3e543d31-ed67-4e06-9747-979d9e518a76",
+        "UserPoolArn": "arn:aws:cognito-idp:eu-north-1:820242937525:userpool/eu-north-1_fYuzdE7rN",
+        "IdentityPoolName": "sarcostudioee374c2e_identitypool_ee374c2e__dev",
+        "UserPoolName": "sarcostudioee374c2e_userpool_ee374c2e"
+      },
+      "lastPushDirHash": "pS+AQAB7iDBTCXT1DimkipS/VUo="
+    }
+  }
+}

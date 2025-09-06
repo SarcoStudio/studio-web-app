@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-sarcostudio-dev-caf37-authRole",
+      "UnauthRoleArn": "arn:aws:iam::820242937525:role/amplify-sarcostudio-dev-caf37-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::820242937525:role/amplify-sarcostudio-dev-caf37-authRole",
+      "Region": "eu-north-1",
+      "DeploymentBucketName": "amplify-sarcostudio-dev-caf37-deployment",
+      "UnauthRoleName": "amplify-sarcostudio-dev-caf37-unauthRole",
+      "StackName": "amplify-sarcostudio-dev-caf37",
+      "StackId": "arn:aws:cloudformation:eu-north-1:820242937525:stack/amplify-sarcostudio-dev-caf37/53b5c240-e8b5-11ef-83a2-06d902c306fb",
+      "AmplifyAppId": "d10mdffl812sum"
+    },
+    "categories": {
+      "auth": {
+        "sarcostudioee374c2e": {}
+      }
+    }
+  }
+}
